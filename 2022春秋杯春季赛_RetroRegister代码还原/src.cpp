@@ -1,5 +1,12 @@
 #pragma once
 
+/*********************************************
+
+该文件存放还原的函数代码
+
+
+*********************************************/
+
 #include<Windows.h>
 
 // 输入的用户名
@@ -158,11 +165,10 @@ int WriteRegDat()
 // 读取注册码信息
 int ReadRegData()
 {
-    // 对着 PE 文件头部一顿操作???
+    // 对着 PE 文件头部一顿操作
     HMODULE GetModuleHandleA(NULL);
     // Debug出来为 .text节表 放入 Sm3 加密后拿到的值， 直接扣出来
-    //DWORD PEHEADENCRYPT[8] = { 0x94f61bf1,0x9085d02c,0x4de4d77b,0x825f1fc6,0x1f5aae78,0x53c7775c,0x4d8da1ad,0xdd2185dd };
-    DWORD PEHEADENCRYPT[8] = { 0x15EF7F26, 0x8097BDAD, 0x4ADA9535, 0xBB52BFFD, 0xCB208EF1, 0x64F6FB16, 0x78799E6B, 0x592FE91F };
+    DWORD PEHEADENCRYPT[8] = { 0x26e9458a, 0x3c13520b, 0xdef20ace, 0xa703f8c1, 0x43dc0b29, 0x7e4a7fa7, 0x725366c3, 0x80680cfc };
 
 
     DWORD NumberOfBytesWritten = 0;

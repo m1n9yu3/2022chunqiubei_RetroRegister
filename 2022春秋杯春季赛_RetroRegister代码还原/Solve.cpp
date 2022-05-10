@@ -553,7 +553,7 @@ unsigned char aStringTable[0x21] = { "23456789ABCDEFGHJKLMNPQRSTUVWXYZ" };
 void Solver()
 {
     // 输入的用户名
-    uint8_t szUserName[] = "TEST";
+    uint8_t szUserName[] = "test";
     // 加密后的数据内容
     DWORD aEncryMsgArry[9] = { 0 };
     DWORD OutBuffer[32] = { 0 };
