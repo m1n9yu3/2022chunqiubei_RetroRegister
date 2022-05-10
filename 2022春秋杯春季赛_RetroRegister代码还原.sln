@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2022春秋杯春季赛_RetroRegister代码还原", "2022春秋杯春季赛_RetroRegister代码还原\2022春秋杯春季赛_RetroRegister代码还原.vcxproj", "{B675ACAC-86D7-46F0-90C3-71604F391CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E881A45-ED73-4B1F-A8C7-A591DC9AAAC4}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Debug|x64.ActiveCfg = Debug|x64
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Debug|x64.Build.0 = Debug|x64
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Debug|x86.Build.0 = Debug|Win32
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Release|x64.ActiveCfg = Release|x64
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Release|x64.Build.0 = Release|x64
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Release|x86.ActiveCfg = Release|Win32
+		{B675ACAC-86D7-46F0-90C3-71604F391CAE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF2DEF0-0CA8-4054-909F-2DBAB73BCCB6}
+	EndGlobalSection
+EndGlobal
